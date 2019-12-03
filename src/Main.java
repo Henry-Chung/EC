@@ -70,7 +70,7 @@ class DBConnect {
     try {
       // MYSQL connection
       Class.forName("com.mysql.cj.jdbc.Driver");
-      con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Test", "root", "791206");
+      con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Test", "root", "root");
       st = con.createStatement();
 
     } 
