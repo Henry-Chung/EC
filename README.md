@@ -21,10 +21,13 @@ Reference: <http://millionsongdataset.com/>
 ### Method
 
 /dataset/songs.csv
+/dataset/setQueryLog.sql
+
 1. Dowload the dataset from the website of Million Song. Then, add 3 columns in the songs table (id, artist_hotttnesss_int, artist_familiarity_int).
 
-/dataset/setQueryLog.sql
 2. Activate the query log by using the script in file dataset.
+
+
 
 ### How to run the code
 
